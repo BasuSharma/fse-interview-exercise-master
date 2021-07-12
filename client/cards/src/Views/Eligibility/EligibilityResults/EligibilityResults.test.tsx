@@ -16,7 +16,7 @@ let cardsData = {cards:{
                     };
 
 
-it("renders correctly", () => {
+it("Testresult component renders correctly", () => {
   const testresultcomponent = shallow(<EligibilityResults  userName={"Anjela"} cards= {cardsData.cards} />);
   expect(toJson(testresultcomponent)).toMatchSnapshot();
 });

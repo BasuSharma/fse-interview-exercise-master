@@ -76,6 +76,8 @@ hs_err_pid*
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 
+/server/cards/tl-api/logs/cards-app-logs.log
+
 # Gradle:
 .idea/gradle.xml
 .idea/libraries

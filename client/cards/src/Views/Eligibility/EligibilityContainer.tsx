@@ -15,6 +15,7 @@ interface AppState {
 
 }
 
+//Container compoenent for handling form action and showing results
 class EligibilityContainer extends Component<AppProps, AppState> {
   constructor(props: any) {
     super(props);
@@ -28,10 +29,7 @@ class EligibilityContainer extends Component<AppProps, AppState> {
   }
 
 
-  componentDidMount() {
-
-  }
-
+  // funciton to handle form submit action of child component 
   checkApplicantEligiblity = (values: any) => {
     this.setState({ userName: values.name })
     fetch(REST_API_SERVER_URL, {
@@ -64,7 +62,7 @@ class EligibilityContainer extends Component<AppProps, AppState> {
       })
   }
 
-
+// conditional rendering for form, results and error scenarios
   render() {
 
     if (!this.state.cardsStatus && !this.state.statusError) {

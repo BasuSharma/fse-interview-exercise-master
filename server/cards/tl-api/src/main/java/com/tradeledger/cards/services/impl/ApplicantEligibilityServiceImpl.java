@@ -27,7 +27,12 @@ public class ApplicantEligibilityServiceImpl implements ApplicantEligibilityServ
 	private static final String url = "http://localhost:3317/eligibility/check";
 	static final Logger logger = 
 	        (Logger) LoggerFactory.getLogger(ApplicantEligibilityServiceImpl.class);
-
+	
+	
+	/**
+	 * Service method to call eligibility check service from third party Rest api provider
+	 */
+			
 	@Override
 	public EligibilityResult checkApplicantEligibility(Applicant applicant) {
 		HttpHeaders headers = HttpCommonActions.getDefaultHTTPHeaderObject();

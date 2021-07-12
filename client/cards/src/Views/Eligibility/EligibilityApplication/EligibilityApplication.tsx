@@ -19,7 +19,8 @@ interface FormValues {
   address: string;
 }
 
-
+// Component to collect user data in Formik forms and send details to parent conatiner
+// Uses submit action from props provided funciton
 const EligibilityApplication = (props: { checkApplicantEligiblity: any }) => {
   const formik = useFormik<FormValues>({
     initialValues: {

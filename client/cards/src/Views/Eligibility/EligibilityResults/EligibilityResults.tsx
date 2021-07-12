@@ -29,6 +29,7 @@ const HeadingText = styled.div`
   color: rgb(42, 98, 231, 0.75);
 `;
 
+//Component to show results of eligibility check of applicant 
 const EligibilityResults = (props: { userName: string, cards: any }) => {
    
     if(props.cards.eligibleCards.length >0)

@@ -33,7 +33,7 @@ import com.tradeledger.cards.services.ApplicantEligibilityService;
 public class ApplicantEligibilityController {
 
 	/**
-	 * Service method to call eligibility service from thirdparty application
+	 * Rest Controller  to check card related services including eligibility service from thirdparty application
 	 * 
 	 */
 	@Autowired

@@ -27,6 +27,7 @@ const HeadingText = styled.div`
   color: rgb(42, 98, 231, 0.75);
 `;
 
+// Error  page to show generic handled errors related to application 
 const ErrorPage = () => {
   
   
