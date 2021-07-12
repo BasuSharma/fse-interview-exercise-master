@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+       Hi 
+      Anjela
+      , 
+      <br />
+       Below are your eligible card/cards 
+    </styled.div>
+    <styled.div
+      key="C1"
+    >
+        
+      C1
+       
+    </styled.div>
+    <styled.div
+      key="C2"
+    >
+        
+      C2
+       
+    </styled.div>
+  </styled.div>
+  <br />
+  <div>
+    <a
+      href="http://localhost:3000/"
+    >
+      back
+    </a>
+  </div>
+</styled.div>
+`;

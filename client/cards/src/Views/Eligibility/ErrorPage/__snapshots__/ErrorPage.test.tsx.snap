@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      Error Occured. please try agian later or contact support. 
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

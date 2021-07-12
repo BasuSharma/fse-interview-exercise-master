@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` EligibilityApplication Component renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.h1>
+      Cards
+    </styled.h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <FormInput
+        id="name"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+      <FormInput
+        id="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Email"
+        type="email"
+        value=""
+      />
+      <FormInput
+        id="address"
+        name="address"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Address"
+        type="text"
+        value=""
+      />
+      <SubmitButton
+        text="Submit"
+      />
+    </form>
+  </styled.div>
+</styled.div>
+`;
